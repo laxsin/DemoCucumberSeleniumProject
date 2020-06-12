@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class launchwebsiteStep {
+public class TestlaunchwebsiteStep {
 
 	WebDriver driver ;
 	public void launch() throws InterruptedException {
