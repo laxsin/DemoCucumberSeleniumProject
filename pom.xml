@@ -139,8 +139,14 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
 					<configuration>
+					<systemPropertyVariables>
+						<propertyname>ENV</propertyname>
+						<propertvalue>${ENV}</propertvalue>
+						<propertyname>Browser</propertyname>
+						<propertvalue>${Browser}</propertvalue>
+					</systemPropertyVariables>
 						<includes>
-							<exclude>**/*runner.java</exclude>
+							<include>**/*runnerTest.java</include>
 						</includes>
 					</configuration>
 				</plugin>
