@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "launch google",
+        "description": "",
+        "id": "launch-the-google-website;launch-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20663907300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch Google website",
+            "match": {
+              "location": "TestlaunchwebsiteStepTest.launchGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify title",
+            "match": {
+              "location": "TestlaunchwebsiteStepTest.verifyTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1477698300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close the browser",
+            "match": {
+              "location": "TestlaunchwebsiteStepTest.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "launch the google website",
+    "description": "",
+    "id": "launch-the-google-website",
+    "keyword": "Feature",
+    "uri": "launchwebsite.feature"
+  }
+]

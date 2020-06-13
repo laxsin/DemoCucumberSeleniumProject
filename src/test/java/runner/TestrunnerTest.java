@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = "D:/AT_workspace/DemoProject/src/main/java/FeatureFiles",
+		features = "D:/AT_workspace/DemoProject/src/test/java/FeatureFiles/",
 		glue = {"StepDefinitions"},
 		plugin= {"html:target/cucumber-html-report"},
 		 format = {
